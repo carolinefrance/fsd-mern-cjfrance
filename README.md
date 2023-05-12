@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# fsd-mern-cjfrance
+React app adds and deletes names with Faker, uses express and mongo
+
+>>>>>>> 5f73569ad9725ffccdeec12cd4ffcc785824c78c
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
