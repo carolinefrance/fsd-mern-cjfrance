@@ -37,10 +37,7 @@
     ]
   },
   "engines": {
-    "node": "14.x"
-  },
-  "build": {
-    "source": "public",
-    "dest": "dist"
+    "node": "14.21.3",
+    "npm": "6.x"
   }
 }
