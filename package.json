@@ -13,12 +13,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "client-install": "cd ./client && npm install",
+    "client-install": "npm install --prefix client",
     "start": "node server/server.js",
     "server": "nodemon server/server.js",
-    "client": "cd ./client && npm start",
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && cd ./client && npm install && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix server && npm run build --prefix client"
   },
   "eslintConfig": {
     "extends": [
