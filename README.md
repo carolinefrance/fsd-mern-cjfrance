@@ -1,6 +1,5 @@
 # fsd-mern-cjfrance
-React app adds and deletes names with Faker, uses express and mongo. Note: Before attempting to deploy this to Heroku, this build was working locally and as a Dockerized application. Go back to "Commits" before Heroku to see a working version.
-Currently, I'm in the process of modifying the scripts in the package.json file. The app currently builds to Heroku, but Heroku is still not accessing the start script.
+React app adds and deletes names with Faker, uses express and mongo. Note: Before attempting to deploy this to Heroku, this build was working locally and as a Dockerized application. Go back to "Commits" before Heroku to see a working version. The current version was successfully deployed to Heroku. I made changes to package.json scripts and server.js to be compatible with Heroku. Also, on the Heroku website under Settings/Config Vars, I added the contents of .env. Key = MONGODB_URL Value = link and the connection string to the database from mongodb.com, Databases, Connect, Driver, 3.
 
 # Getting Started with Create React App
 
