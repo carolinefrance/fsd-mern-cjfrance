@@ -1,5 +1,6 @@
 # fsd-mern-cjfrance
-React app adds and deletes names with Faker, uses express and mongo
+React app adds and deletes names with Faker, uses express and mongo. Note: Before attempting to deploy this to Heroku, this build was working locally and as a Dockerized application. Go back to "Commits" before Heroku to see a working version.
+Currently, I'm in the process of modifying the scripts in the package.json file. The app currently builds to Heroku, but Heroku is still not accessing the start script.
 
 # Getting Started with Create React App
 
