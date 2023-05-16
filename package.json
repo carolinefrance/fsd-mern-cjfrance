@@ -15,8 +15,8 @@
   "scripts": {
     "client-install": "npm install --prefix client",
     "server-install": "npm install --prefix server",
-    "start": "node --prefix server/server.js",
-    "server": "nodemon --prefix server/server.js ",
+    "start": "node --prefix ./server/server.js",
+    "server": "nodemon --prefix ./server/server.js ",
     "client": "npm start --prefix client",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
